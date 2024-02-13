@@ -1,3 +1,5 @@
+## Overview
+ 
 In this project, I created a web app that allows users to upload images of PNG and JPG formats from anywhere on their local computer. The user can then view the image on the browser.
 
 To upload the file, navigate to this page on your browser:
@@ -31,3 +33,5 @@ $ docker-compose -f docker-compose.prod.yml up -d --build
 $ docker-compose -f docker-compose.prod.yml exec web python manage.py create_db
 ```
 Test it out at http://localhost:1320/upload
+
+README INSPIRED BY: https://github.com/testdrivenio/flask-on-docker
